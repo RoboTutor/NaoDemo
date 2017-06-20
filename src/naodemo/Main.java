@@ -19,6 +19,7 @@ public class Main {
 			new Behaviour(1, "LookAround", "Ik kom uit de T U Delft."),
 			new Behaviour(1, "FromAToB",
 					"Ik ga wel eens langs bij scholen en dagverblijven om iets te vertellen over robots."),
+			new Behaviour(1, "StandHead", ""),
 			new Behaviour(1, "Propose", "Ik word ook gebruikt voor onderzoek."),
 			new Behaviour(1, "State",
 					"Bijvoorbeeld om zieke kinderen te vergezellen, maar ook voor muziektherapie bij ouderen!"),
