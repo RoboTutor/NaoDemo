@@ -7,9 +7,6 @@ import rise.core.utils.tecs.TECSClient;
 
 public class Main {
 
-	/**
-	 * Not working: Nod
-	 */
 	private static Behaviour[] behaviours_1 = {
 			// Introduction
 			new Behaviour(1, "SmallBow", "Goedemiddag allemaal."),
@@ -22,7 +19,7 @@ public class Main {
 			new Behaviour(1, "StandHead", ""),
 			new Behaviour(1, "Propose", "Ik word ook gebruikt voor onderzoek."),
 			new Behaviour(1, "State",
-					"Bijvoorbeeld om zieke kinderen te vergezellen, maar ook voor muziektherapie bij ouderen!"),
+					"Bijvoorbeeld om kinderen in ziekenhuizen te vergezellen, maar ook voor muziektherapie bij ouderen in ontmoetingscentra!"),
 			// Dance
 			new Behaviour(1, "StandHead", "Maar wisten jullie dat ik ook een goede danser ben?"),
 			new Behaviour(1, "Propose", "Kijk maar!"),
@@ -33,11 +30,11 @@ public class Main {
 			new Behaviour(1, "MeAndYou", "Vandaag ga ik jullie vragen beantwoorden."),
 			new Behaviour(1, "Propose",
 					"Jullie krijgen straks een lijst vragen, waaruit jullie een aantal kunnen kiezen."),
-			new Behaviour(1, "State", "Deze gaan zowel over robots, computers, maar ook over mij."),
-			new Behaviour(1, "Propose",
-					"Daarna zal ik jullie 1 voor 1 uitnodigen om die vragen aan mij te stellen!."),
+			new Behaviour(1, "State", "Deze gaan over robots, computers, maar ook over mij."),
+			new Behaviour(1, "Propose", "Daarna zal ik jullie 1 voor 1 uitnodigen om die vragen aan mij te stellen!."),
 			// Conclusion
-			new Behaviour(1, "XWaving", "Tot straks!"), new Behaviour(1, "StandHead", "") };
+			new Behaviour(1, "XWaving", "Tot straks!"),
+			new Behaviour(1, "StandHead", "") };
 
 	public static void main(String[] args) {
 
